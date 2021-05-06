@@ -1,0 +1,9 @@
+spring.profiles.active=test
+
+#configurar conexão banco oracle em memoria
+spring.jpa.hibernate.ddl-auto=create
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+spring.datasource.username=system
+spring.datasource.passord=m123456
+
